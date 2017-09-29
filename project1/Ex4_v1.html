@@ -1,0 +1,131 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Spectral" rel="stylesheet">
+
+</head>
+
+<style>
+
+div{
+
+  background-color: red;
+  width:200px;
+  height:30px;
+  float:left;
+  margin:40px;
+  padding-left: 300px;
+
+}
+div:nth-child(2){
+  opacity: 1;
+  background-color: green;
+  width:290px;
+  margin-top: 200px;
+  padding: 30px;
+  color: blue;
+  letter-spacing: 20px;
+  -webkit-transform: rotate(0deg);
+  transition:1s
+}
+
+div:nth-child(2):hover {
+  opacity: 1;
+  background-color: green;
+  width:290px;
+  margin-top: 200px;
+  padding: 30px;
+  color: white;
+  letter-spacing: 20px;
+  -webkit-transform: rotate(360deg);
+  transition:1s;
+}
+
+
+#star-five {
+   margin: 50px 0;
+   position: relative;
+   display: block;
+   color: red;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid red;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+#star-five:before {
+   border-bottom: 80px solid red;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+
+}
+#star-five:after {
+   position: absolute;
+   display: block;
+   color: red;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid red;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}
+
+
+div:nth-child(3){
+  background-color: blue;
+  width:290px;
+  margin-top: 200px;
+  padding: 30px;
+  color: white;
+  letter-spacing: 20px;
+  -webkit-transform: rotate(7deg);
+}
+
+</style>
+
+
+            <body>
+<div></div>
+<div>Congress shall make no law respecting an establishment of religion,
+or prohibiting the free exercise thereof; or abridging the freedom of speech,
+or of the press; or the right of the people peaceably to assemble, and to petition
+the government for a redress of grievances.</div>
+<div class="star-five">
+
+</div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+
+
+
+            </body>
+
+
+</body>
+</html>
